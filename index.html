@@ -416,18 +416,17 @@
           </p>
           <form
             class="row contact_form"
-            action="contact_process.php"
             method="post"
+            action="/"
             id="contactForm"
-            novalidate="novalidate"
           >
             <div class="col-md-6">
               <div class="form-group">
                 <input
                   type="text"
                   class="form-control"
-                  id="name"
-                  name="name"
+                  id="fullname"
+                  name="fullname"
                   placeholder="Adınız Soyadınız"
                 />
               </div>
@@ -444,8 +443,8 @@
                 <input
                   type="tel"
                   class="form-control"
-                  id="subject"
-                  name="subject"
+                  id="phone_number"
+                  name="phone_number"
                   placeholder="Telefon Numaranız"
                 />
               </div>
@@ -491,6 +490,9 @@
     </footer>
     <!--================ End footer Area  =================-->
 
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -508,5 +510,6 @@
     <script src="js/mail-script.js"></script>
     <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
