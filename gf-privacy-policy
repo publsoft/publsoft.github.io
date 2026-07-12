@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy - AI Girlfriend</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --paper: #f6f4ee;
+    --paper-2: #efece3;
+    --ink: #1b1a16;
+    --body: #514d44;
+    --faint: #908b80;
+    --line: #ddd8cc;
+    --line-2: #c9c3b4;
+    --accent: #18594a;
+    --maxw: 760px;
+    --pad: clamp(22px, 5vw, 60px);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--body); font-family: var(--sans); line-height: 1.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  a { color: inherit; }
+  .bound { max-width: var(--maxw); margin-inline: auto; padding-inline: var(--pad); }
+
+  header { position: sticky; top: 0; z-index: 60; background: color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .nav { display: flex; align-items: center; justify-content: space-between; height: 70px; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--pad); }
+  .brand { font-family: var(--serif); font-weight: 600; font-size: 18px; letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; }
+  .brand .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); }
+  .nav a.back { font-size: 13px; font-weight: 500; color: var(--body); text-decoration: none; transition: color .18s; }
+  .nav a.back:hover { color: var(--ink); }
+
+  .doc { padding: clamp(52px, 8vw, 92px) 0 clamp(72px, 10vw, 110px); }
+  .label { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-family: var(--serif); font-weight: 400; color: var(--ink); font-size: clamp(34px, 6vw, 56px); letter-spacing: -0.02em; line-height: 1.04; margin: 16px 0 0; }
+  .updated { font-size: 14px; color: var(--faint); padding: 20px 0 28px; margin-bottom: 28px; border-bottom: 1px solid var(--line); }
+
+  .doc p { margin: 18px 0; font-size: 16.5px; }
+  .doc h2 { font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: clamp(21px, 3vw, 28px); letter-spacing: -0.015em; margin: 50px 0 6px; }
+  .doc ul { margin: 16px 0; padding-left: 0; list-style: none; }
+  .doc li { position: relative; padding-left: 24px; margin: 12px 0; font-size: 16px; }
+  .doc li::before { content: ""; position: absolute; left: 2px; top: 13px; width: 8px; height: 1px; background: var(--accent); }
+  .doc strong { color: var(--ink); font-weight: 600; }
+  .doc a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--line-2); }
+  .doc a:hover { border-color: var(--accent); }
+  .contact-block { margin-top: 12px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper-2); font-size: 16.5px; }
+  .contact-block strong { display: block; font-family: var(--serif); font-size: 17px; margin-bottom: 4px; }
+
+  footer { border-top: 1px solid var(--line); padding: 34px 0 52px; }
+  .foot { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+  .foot .cr { font-size: 13px; color: var(--faint); }
+  .foot-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .foot-links a { font-size: 13px; color: var(--body); text-decoration: none; transition: color .18s; }
+  .foot-links a:hover { color: var(--ink); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html"><span class="dot"></span>Emrah Deniz Apps</a>
+      <a class="back" href="index.html">← Back</a>
+    </div>
+  </header>
+
+  <main class="doc bound">
+    <span class="label">Privacy Policy</span>
+    <h1>Privacy Policy for AI Girlfriend</h1>
+    <p class="updated">Last Updated: June 23, 2026</p>
+
+    <p>This Privacy Policy explains how Emrah Deniz (“we”, “us”, the “Service Provider”) handles information in connection with the AI Girlfriend mobile application (the “Application”). AI Girlfriend is an AI chat application: you exchange text messages with an AI character. The Application does not use accounts, does not connect you with other people, and does not collect photos, faces, or biometric data.</p>
+
+    <p><strong>Adults only.</strong> The Application is intended only for users aged 18 and over. We do not knowingly collect information from anyone under 18. If you believe a minor has used the Application, please contact us and we will take appropriate action.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We keep data collection to a minimum. Depending on how you use the Application, this may include:</p>
+    <ul>
+      <li><strong>Name or nickname.</strong> A display name you choose to enter so the AI can address you. This is optional and can be a real name, a nickname, or any pseudonym you like — we don't verify it.</li>
+      <li><strong>Chat content.</strong> The messages and prompts you type so the AI can generate a response. This is the core data needed for the Application to work.</li>
+      <li><strong>Device &amp; diagnostic data.</strong> Basic technical information such as device type, operating system version, language, and crash or performance logs, used to keep the Application stable. This data is not used to identify you personally.</li>
+      <li><strong>Purchase information.</strong> If you buy a subscription or in-app purchase, the transaction is processed by Apple or Google. We receive a confirmation of the purchase but never your full card or payment details.</li>
+    </ul>
+
+    <h2>2. What We Do Not Collect</h2>
+    <p>To be clear, the Application does <strong>not</strong> collect or process:</p>
+    <ul>
+      <li>Your real identity, address, phone number, or a registered user account (the name or nickname you enter is optional and unverified);</li>
+      <li>Photographs, facial features, or any biometric data;</li>
+      <li>Your contacts, precise GPS location, or browsing on other apps and sites;</li>
+      <li>Special-category data such as your health, religion, ethnicity, political views, or sexual life.</li>
+    </ul>
+
+    <h2>3. How We Use Information</h2>
+    <p>We use the information above only to: provide and operate the Application; generate AI responses to your messages; fix bugs and improve stability and quality; process purchases; and comply with our legal obligations. We do not sell your personal data, and we do not use it for third-party advertising.</p>
+
+    <h2>4. AI Processing and Third-Party Providers</h2>
+    <p>AI Girlfriend does not run its own AI models. To generate responses, the text you send — and the name or nickname you provide — is transmitted to third-party large language model (“LLM”) providers that run the underlying models. These providers include, but are not limited to:</p>
+    <ul>
+      <li>OpenAI (ChatGPT / GPT models)</li>
+      <li>Google (Gemini models)</li>
+      <li>xAI (Grok models)</li>
+    </ul>
+    <p>When you send a message, that message is processed by one or more of these providers solely to return a response to you. Your content is handled under each provider's own terms and privacy policy, and we encourage you to review them. These providers are not permitted to use your messages to identify you, and we do not allow your conversations to be used to train third-party AI models without a lawful basis. Please avoid sharing sensitive personal information (such as financial details, health information, or anything you would not want processed by a third party) in your chats. We also rely on standard infrastructure and diagnostics providers (for example, app hosting and crash reporting) strictly to operate the Application.</p>
+
+    <h2>5. International Data Transfers</h2>
+    <p>Because our AI and infrastructure providers may operate servers in other countries, your information may be processed outside your country of residence. Where required, we take steps so that such transfers have an appropriate legal basis and safeguards.</p>
+
+    <h2>6. Data Retention and Deletion</h2>
+    <p>We keep information only for as long as needed to provide the Application and for legitimate or legal purposes. Chat content is processed to provide responses and is not retained longer than necessary. Because the Application has no account, you can stop all data collection at any time by uninstalling it. To request deletion of any data associated with you, contact us at the address below and we will act on your request.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on where you live, you may have rights to access, correct, delete, or restrict the processing of your personal data, and to object to certain processing. To exercise any of these rights, contact us using the details below.</p>
+
+    <h2>8. Security</h2>
+    <p>We use reasonable technical and organizational measures to protect information against unauthorized access, loss, or misuse. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will revise the “Last Updated” date above and post the new version on this page. Continued use of the Application after changes means you accept the updated policy.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or your data, please contact:</p>
+    <div class="contact-block">
+      <strong>Emrah Deniz</strong>
+      Email: <a href="mailto:emrahdenizapp@gmail.com">emrahdenizapp@gmail.com</a>
+    </div>
+  </main>
+
+  <footer class="bound">
+    <div class="foot">
+      <span class="cr">© <span id="year"></span> Emrah Deniz. All Rights Reserved.</span>
+      <div class="foot-links">
+        <a href="index.html">Home</a>
+        <a href="mailto:emrahdenizapp@gmail.com">Contact us</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
